@@ -20,7 +20,7 @@ namespace RandomGroup
         static void Main(string[] args)
         {
             // 得到JSON檔並轉成List
-            StreamReader rw = new StreamReader("D:\\VSProject\\Match\\Match\\Data.txt", Encoding.Default);
+            StreamReader rw = new StreamReader(@"D:\\VSProject\\Match\\Match\\Data.txt", Encoding.Default);
             data = rw.ReadToEnd();
 
             // 參數宣告跟決定每組幾人
